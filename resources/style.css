@@ -34,5 +34,44 @@ nav {
 .navLink {
   color: black;
   padding: 12px;
+}
 
+/* Main Container Style */
+
+.mainContainer {
+border: 1px solid blue;    /* for debugging */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+article{
+  border: 1px solid blue;    /* for debugging */
+}
+
+.column.large {
+  border: 1px solid blue;    /* for debugging */
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+
+}
+
+.column.medium {
+  border: 1px solid blue;    /* for debugging */
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+
+}
+
+.column.small {
+  border: 1px solid blue;    /* for debugging */
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
 }
