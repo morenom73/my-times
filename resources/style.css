@@ -1,0 +1,38 @@
+/* Header Style */
+
+.header {
+  font-family: Verdana;
+font-size: 14px;
+font-weight: bold;
+border-bottom: 1px solid black;
+display: flex;
+padding: 10px 20px;
+align-items: center;
+width: 100%;
+}
+
+.headerLogo {
+  /* border: 1px solid blue;  for debugging */
+  display: flex;
+  align-items: center;
+  width: 270px;
+}
+
+.logo {
+  color: MediumAquamarine;
+  padding: 12px;
+}
+
+nav {
+  /* border: 1px solid blue;  for debugging */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.navLink {
+  color: black;
+  padding: 12px;
+
+}
