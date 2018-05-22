@@ -1,4 +1,4 @@
-/* Header Style */
+/* Begin Header Style */
 
 .header {
   font-family: Verdana;
@@ -35,43 +35,203 @@ nav {
   color: black;
   padding: 12px;
 }
+/* End Header Style */
 
-/* Main Container Style */
+/* Begin Overall Main Container Style */
 
 .mainContainer {
-border: 1px solid blue;    /* for debugging */
+  /* border: 1px solid blue;     for debugging */
   display: flex;
   justify-content: center;
   margin-top: 30px;
-
+  margin-bottom: 30px;
 }
 
-article{
-  border: 1px solid blue;    /* for debugging */
+.imageText {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 0;
 }
+
+.mainImageText{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding-left: 7px;
+  margin-top: 0px;
+}
+
+article p {
+ font-family: Georgia;
+ font-size: 17px;
+ color: black;
+}
+
+/* Begin Large Column styling */
 
 .column.large {
-  border: 1px solid blue;    /* for debugging */
+  /* border: 1px solid blue;   for debugging */
   width: 630px;
   display: flex;
-  flex-direction: column;
+flex-direction: column;
   margin-right: 20px;
+}
+
+.secondary-stories {
+  /*border: 1px solid blue;   for debugging */
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.large-column-first{
+  /*border: 1px solid blue;   for debugging */
+  display: flex;
+  flex-flow: column wrap;
+  width: 315px;
+  margin-right: 10px;
+}
+
+.large-column-second{
+  /* border: 1px solid blue;   for debugging */
+  display: flex;
+  flex-flow: column wrap;
+  width: 315px;
+  margin-left: 10px;
+}
+
+.large-column-first article,
+ .large-column-second article {
+  padding-bottom: 10px;
+}
+
+#imageMainStory {
+  display: flex;
+  background-image: url("../resources/images/img-myt-mainStory.png");
+  background-color: gray;
+  background-size: cover;
+  height: 300px;
+}
+
+#imageEarthSpin {
+  display: flex;
+  background-image: url("../resources/images/img-myt-fallSeason.png");
+  background-color: gray;
+  height: 300px;
 
 }
 
+#imageHipsterCamera {
+  display: flex;
+  background-image: url("../resources/images/img-myt-hipsterCameraman.png");
+  background-color: gray;
+  height: 300px;
+}
+
+/* End Large Column styling */
+
+/* Begin Medium Column styles */
+
 .column.medium {
-  border: 1px solid blue;    /* for debugging */
+  /* border: 1px solid blue;     for debugging */
   width: 300px;
   display: flex;
   flex-direction: column;
   margin-right: 20px;
-
+  margin-top: -25px;
 }
 
+#imageCatCEO {
+  display: flex;
+  background-image: url("../resources/images/img-myt-catCEO.png");
+  background-color: gray;
+  height: 300px;
+}
+
+/* End Medium Column styles */
+
+/* Begin Small Column styles */
+
 .column.small {
-  border: 1px solid blue;    /* for debugging */
+  /* border: 1px solid blue;     for debugging */
   width: 240px;
   display: flex;
   flex-direction: column;
   margin-right: 20px;
+  margin-top: -28px;
 }
+
+.column.small h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.column.small p{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  border-bottom: 1px solid black;
+}
+
+.column.small article{
+  background-color: WhiteSmoke;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 100%;
+}
+/* End Small Column styles */
+/* End Overall Main Container Style */
+
+
+/* Begin footer Styles */
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer nav {
+  /*border: 1px solid blue;  for Debugging */
+  display: flex;
+  padding: 5px;
+  width: 100%;
+}
+
+.footer{
+  /*border: 1px solid blue;  for Debugging */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logofooter{
+  padding-right: 20px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+/* end footer Styles */
